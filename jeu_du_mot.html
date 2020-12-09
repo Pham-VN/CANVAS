@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Jeu du mot</title>
+        <meta charset="utf8">
+        <link rel="stylesheet" href="jeu.css">
+    </head>
+    <body>
+        <h1>JEU DU MOT QUI BOUGE</h1>
+        <div class="row">
+            <div class="column">
+                <canvas id='canvas' width="600px" height="500px"></canvas>
+            </div>
+            <div class="column">
+                <p id='definition'></p>
+                <button onclick="definition()" id='def'>Définition</button>
+                <div>
+                    <input type="text" id="input" placeholder="proposition">
+                    <button id="btn" onclick="comparer()" >Submit</button>
+                    <button onclick="solution()">Solution</button>
+                    <button onclick="reset()">Reset</button>
+                    <p id="annonce"></p>
+                    <p id="result"></p> 
+                </div>
+            </div>
+        </div>               
+        <script src="jeu.js"></script>
+    </body>
+</html> 

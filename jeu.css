@@ -1,0 +1,48 @@
+body {
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color:#a0cfca;
+}
+h1 {
+    margin-left: 20%;
+    margin-right: 33%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: pink;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+#canvas {
+    background-color: black;
+    border: 4px dotted green;
+    border-radius: 10px;
+}
+#definition {
+    padding: 50px;
+    margin-right: 5%;
+    margin-left: 55%;
+    border: 2px solid;
+    border-left: 5px solid red;
+    background-color: white;
+    color: black;
+}
+#input, #annonce , #result  {
+    margin-left: 5%;
+}
+#btn {
+    margin-left: 1%;
+}
+#def {
+    margin-left: 60%;
+    margin-top: 5px;
+}
+button {
+    margin-top: 2%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
